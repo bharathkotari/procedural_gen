@@ -21,8 +21,10 @@ func _ready():
 	# Called every time the node is added to the scene.
 	# Initialization here
 	map1=get_node("TileMap")
+	#map1.set_global_pos(Vector2(-30,10))
 	player=get_node("Sprite")
-	player.set_pos(Vector2(0,300))
+	#player.set_global_pos(Vector2(300,0))
+	player.set_pos(Vector2(50,300))
 	wm=map1.world_to_map(Vector2(0,0))
 	randomize()
 	

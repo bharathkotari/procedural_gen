@@ -21,7 +21,7 @@ region_rect = Rect2( 0, 0, 6000, 225 )
 
 mode = 0
 tile_set = ExtResource( 3 )
-cell/size = Vector2( 64, 64 )
+cell/size = Vector2( 69, 69 )
 cell/quadrant_size = 16
 cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
 cell/half_offset = 2
@@ -41,6 +41,7 @@ texture = ExtResource( 4 )
 
 [node name="Camera2D" type="Camera2D" parent="Sprite"]
 
+transform/pos = Vector2( 480, -10 )
 anchor_mode = 1
 rotating = false
 current = true
